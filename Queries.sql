@@ -38,7 +38,7 @@ create table Task_info(
 	employee_id int,
 	vehicle_id int,
 	PRIMARY KEY(task_id),
-	FOREIGN KEY(employee_id) REFERENCES Employee(employee_id)
+	FOREIGN KEY(employee_id) REFERENCES Employee(employee_id),
 	FOREIGN KEY(vehicle_id) REFERENCES Vehicle(vehicle_id)
 );
 
